@@ -9,6 +9,7 @@ public class Introductions {
     Console console = System.console();
     //Introduction program!
     String firstName = console.readLine("What is your name? ");
+    String lastName = console.readLine("What is your last name? ");
     /* This method returns a value that we
       then use to set our firstName variable*/
       //thisIsAnExampleOfCamelCasing
@@ -20,5 +21,6 @@ public class Introductions {
       I inserted a comma, then I insert the firstName
       variable.*/
       console.printf("%s is learning how to write Java\n", firstName);
+      console.printf("By the way my last name is %s\n", lastName);
   }
 }
