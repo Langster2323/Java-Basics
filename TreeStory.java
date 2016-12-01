@@ -4,10 +4,15 @@ public class TreeStory {
 
     public static void main(String[] args) {
         Console console = System.console();
-      String name = console.readLine("Enter your name:  ");
+      //__Name__ is a __adjective__ __noun__. They are always __adverb__ __verb__.
+      String name = console.readLine("Enter a name:  ");
       String adjective = console.readLine("Enter an adjective:  ");
-      console.printf("%s is very %s", name, adjective);
-      /* Including more than one variable into a formatted sting */
+      String noun = console.readLine("Enter a noun:  ");
+      String adverb = console.readLine("Enter an adjective:  ");
+      String verb = console.readLine("Enter a verb ending in -ing:  ");
+      console.printf("Your TreeStory:\n----------------\n");
+      console.printf("%s is a %s %s. ", name, adjective, noun);
+      console.printf("Thay are always %s %s.\n", adverb, verb);
     }
 
 }
