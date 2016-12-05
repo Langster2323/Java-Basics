@@ -14,6 +14,9 @@ public class TreeStory {
       String name = console.readLine("Enter a name:  ");
       String adjective = console.readLine("Enter an adjective:  ");
       String noun = console.readLine("Enter a noun:  ");
+      if (noun.equalsIgnoreCase("dork") ||
+          noun.equalsIgnoreCase("jerk") ||
+          noun.equalsIgnoreCase("nerd"));
       String adverb = console.readLine("Enter an adjective:  ");
       String verb = console.readLine("Enter a verb ending in -ing:  ");
       console.printf("Your TreeStory:\n----------------\n");
