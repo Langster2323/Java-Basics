@@ -5,6 +5,7 @@ public class TreeStory {
     public static void main(String[] args) {
         Console console = System.console();
       //__Name__ is a __adjective__ __noun__. They are always __adverb__ __verb__.
+      int age = 12;
       if (age < 13) {
         console.printf("Sorry you must be at least 13 to use this program\n");
         System.exit(0);
