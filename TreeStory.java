@@ -30,9 +30,7 @@ public class TreeStory {
             String verb = console.readLine("Enter a verb ending in -ing:  ");
             console.printf("Your TreeStory:\n----------------\n");
             console.printf("%s is a %s %s. ", name, adjective, noun);
-            console.printf("Thay are always %s %s.\n", adverb, verb);
+            console.printf("That is always %s %s.\n", adverb, verb);
           }
 
       }
-
-      
