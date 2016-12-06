@@ -1,10 +1,15 @@
 //access level modifier
 public class PezDispenser {
   // "m" is a common naming prefix used for member variables
-  //Changing the access level modifier to private
-  private String mCharacterName = "Yoda";
+  //changing the access level modifier to private
+  // A declared variable but not initialized
+  private String mCharacterName;
 
-// Added a getter, that can be used to get the character name
+  //How to create a constructor...
+  public PezDispenser(String characterName) {
+    mCharacterName = characterName;
+  }
+
   public String getCharacterName() {
     return mCharacterName;
   }
