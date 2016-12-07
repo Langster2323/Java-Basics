@@ -5,8 +5,16 @@ public class Example {
         //println prints a formatted text with \n at the end of it
         System.out.println("We are making a Pez Dispenser.");
         //Made a brand new Pez Dispenser...
-        PezDispenser dispenser = new PezDispenser();
+        PezDispenser dispenser = new PezDispenser("Yoda");
         System.out.printf("The dispenser character is %s\n",
-        dispenser.mCharacterName());
+                       dispenser.getCharacterName());
+        if (dispenser.isEmpty()) {
+          System.out.println("It is currently empty");
+        }
+        System.out.println("Loading...");
+        dispenser.load();
+        if (!dispenser.isEmpty()) {
+          System.out.println("It is no longer empty");
+        }
     }
 }
