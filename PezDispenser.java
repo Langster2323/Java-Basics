@@ -28,7 +28,9 @@ public class PezDispenser {
   }
 /* When we want a method to
     return nothing use the keyword
-    void*/
+    void. WHen called it should set
+    mPezCount to the calue of the
+    constant we declared earlier.*/
   public void load() {
     mPezCount = MAX_PEZ;
   }
