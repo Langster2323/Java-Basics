@@ -26,6 +26,12 @@ public class PezDispenser {
       dispenser at the store.*/
     mPezCount = 0;
   }
+
+public boolean isEmpty() {
+  // This does the equality check and returns it
+  return mPezCount == 0;
+}
+
 /* When we want a method to
     return nothing use the keyword
     void. WHen called it should set
