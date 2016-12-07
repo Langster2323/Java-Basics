@@ -2,6 +2,9 @@
 public class PezDispenser {
   //This is a constant...
   //Final means, no one can change the objects state
+  /* Static is a class level variable, i'm using
+  this method inorder to reference the constant
+  MAX_PEZ. */
   public static final int MAX_PEZ = 12;
   // "m" is a common naming prefix used for member variables
   //changing the access level modifier to private
