@@ -10,6 +10,11 @@ public class PezDispenser {
   //changing the access level modifier to private
   // A declared variable but not initialized
   private String mCharacterName;
+  /* Storying the number of pez we jave
+  in our dispenser. Left it declared but
+  uninitialized, it'll be initialized
+  in the constructor. */
+  private int mPezCount;
 
   //How to create a constructor...
   public PezDispenser(String characterName) {
