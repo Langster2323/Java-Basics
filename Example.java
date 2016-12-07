@@ -7,6 +7,6 @@ public class Example {
         //Made a brand new Pez Dispenser...
         PezDispenser dispenser = new PezDispenser();
         System.out.printf("The dispenser character is %s\n",
-        dispenser.mCharacterName)
+        dispenser.mCharacterName());
     }
 }
