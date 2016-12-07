@@ -27,6 +27,7 @@ public class PezDispenser {
     mPezCount = 0;
   }
 
+// This is a Helper method...
 public boolean isEmpty() {
   // This does the equality check and returns it
   return mPezCount == 0;
