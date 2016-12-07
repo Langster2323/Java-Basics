@@ -20,7 +20,8 @@ public class PezDispenser {
   public PezDispenser(String characterName) {
     mCharacterName = characterName;
     /* When it's initialized
-      it'll come up empty*/
+      it'll come up empty, just like buying a
+      dispenser at the store.*/
     mPezCount = 0;
   }
 
