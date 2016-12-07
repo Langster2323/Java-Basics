@@ -2,7 +2,9 @@
 public class PezDispenser {
   //This is a constant...
   //Final means, no one can change the objects state
-  /* Static is a class level variable, i'm using
+  /* Static is a class level variable, allowing us
+  to access state and behavior of information of class of
+  itself without creating a instance of a class. I'm using
   this method inorder to reference the constant
   MAX_PEZ. */
   public static final int MAX_PEZ = 12;
@@ -23,6 +25,12 @@ public class PezDispenser {
       it'll come up empty, just like buying a
       dispenser at the store.*/
     mPezCount = 0;
+  }
+/* When we want a method to
+    return nothing use the keyword
+    void*/
+  public void load() {
+    mPezCount = MAX_PEZ;
   }
 
   public String getCharacterName() {
