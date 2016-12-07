@@ -19,6 +19,9 @@ public class PezDispenser {
   //How to create a constructor...
   public PezDispenser(String characterName) {
     mCharacterName = characterName;
+    /* When it's initialized
+      it'll come up empty*/
+    mPezCount = 0;
   }
 
   public String getCharacterName() {
