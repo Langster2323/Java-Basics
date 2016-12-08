@@ -8,6 +8,7 @@ public class Example {
         PezDispenser dispenser = new PezDispenser("Yoda");
         System.out.printf("The dispenser character is %s\n",
                        dispenser.getCharacterName());
+                       // A common state request...
         if (dispenser.isEmpty()) {
           System.out.println("It is currently empty");
         }
