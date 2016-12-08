@@ -27,6 +27,21 @@ public class PezDispenser {
     mPezCount = 0;
   }
 
+  /* Decramenting... This is a function that
+ every time we dispense, the caller will know
+ that we dispensed some.*/
+ public boolean dispense() {
+   /* This boolean value is saying
+   if there's nothing to dispense
+   then return false.*/
+   boolean wasDispensed = false;
+   if (!isEmpty()) {
+     mPezCount--;
+     wasDispensed = true;
+   }
+   return wasDispensed;
+ }
+
 // This is a Helper method...
 public boolean isEmpty() {
   // This does the equality check and returns it
