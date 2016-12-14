@@ -10,6 +10,8 @@ public class TreeStory {
       if (age < 13){
               //Insert exit code
               console.printf("Sorry you must be at least 13 to use this program.\n");
+              //The System exit will kick the user out
+              //The 0 is a status code
               System.exit(0);
             }
             String name = console.readLine("Enter a name:  ");
