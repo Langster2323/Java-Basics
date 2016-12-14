@@ -21,7 +21,7 @@ public class TreeStory {
             boolean isInvalidWord;
             do {
               noun = console.readLine("Enter a noun:  ");
-              isInvalidWord =(noun.equalsIgnoreCase("dork") ||
+              isInvalidWord = (noun.equalsIgnoreCase("dork") ||
                   noun.equalsIgnoreCase("jerk") ||
                   noun.equalsIgnoreCase("nerd"));
               if  (isInvalidWord) {
