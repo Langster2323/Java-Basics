@@ -29,7 +29,7 @@ Terminology
 
 
 
-constants (Search for constants) - Values that never change. It is good practice to store these in a clear variable name instead of placing them directly in your code. There is a naming style for them that is all uppercase letters separated by underscores. Here is a list of all constant values in Java SE 8. (I linked directly to the Integer.MAX_VALUE we discussed.)
+constants (Search for constants) - Values that never change. It is good practice to store these in a clear variable name instead of placing them directly in your code. There is a naming style for them that is all uppercase letters separated by underscores. 
 
 static - The static keyword is used to make the class, or blueprint, have access to specific methods or fields without the need to create an instance. This is very common when making constants that are common for all instances of the class. They allow users of your class to not create an unneeded instance just to get the information. Methods that are created using the static keyword are available at the class level, but cannot access non-static, or instance level variables. This is hard to grasp, until you see it in practice. Integer.parseInt is a good example, we call that right from the class, and we didn't need to create an integer to get to it.
 
