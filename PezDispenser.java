@@ -54,7 +54,10 @@ public boolean isEmpty() {
     mPezCount to the calue of the
     constant we declared earlier.*/
   public void load() {
-    mPezCount = MAX_PEZ;
+    /* Any new changes to the new load method
+    below. The old one will get the same
+    changes and there's no repeated code anymore. */
+    load(MAX_PEZ);
   }
 /* These are different methods
 because they have different
