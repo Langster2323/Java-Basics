@@ -56,7 +56,9 @@ public boolean isEmpty() {
   public void load() {
     mPezCount = MAX_PEZ;
   }
-
+/* These are different methods
+because they have different
+method signatures. */
   public void load(int pezAmount) {
     mPezCount += pezAmount;
   }
