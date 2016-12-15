@@ -57,6 +57,10 @@ public boolean isEmpty() {
     mPezCount = MAX_PEZ;
   }
 
+  public void load(int pezAmount) {
+    mPezCount += pezAmount;
+  }
+
   public String getCharacterName() {
     return mCharacterName;
   }
