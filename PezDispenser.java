@@ -63,7 +63,13 @@ public boolean isEmpty() {
 because they have different
 method signatures. */
   public void load(int pezAmount) {
-    mPezCount += pezAmount;
+    /* This cleans up the problem of
+    having too many pez in our PezDispenser.
+    This is throwing an illegal argument exception. */
+    int newAmount = mPezCount + pezAmount;
+    if (newAmount > MAX_PEZ) {
+      throw new IllegalArgumentException("Too Many PEZ!!!");
+    }
   }
 
   public String getCharacterName() {
