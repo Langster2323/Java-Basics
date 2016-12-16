@@ -28,6 +28,7 @@ public class Example {
          while (dispenser.dispense()) {
         System.out.println("Chomp!");
       }
+      /* Now the PezDispenser won't be overfilled. */
       try {
         dispenser.load(400);
         System.out.println("This will never happen");
