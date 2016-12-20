@@ -17,7 +17,7 @@ public class PezDispenser {
   in the constructor. */
   private int mPezCount;
 
-  //How to create a constructor...
+  //Here's one way to create a constructor...
   public PezDispenser(String characterName) {
     mCharacterName = characterName;
     /* When it's initialized
@@ -49,8 +49,8 @@ public boolean isEmpty() {
 
 /* When we want a method to
     return nothing use the keyword
-    void. WHen called it should set
-    mPezCount to the calue of the
+    void. When called it should set
+    mPezCount to the value of the
     constant we declared earlier.*/
   public void load() {
     /* Any new changes to the new load method
