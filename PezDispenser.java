@@ -10,7 +10,6 @@ public class PezDispenser {
   public static final int MAX_PEZ = 12;
   // "m" is a common naming prefix used for member variables
   //changing the access level modifier to private
-  // A declared variable but not initialized
   private String mCharacterName;
   /* Storying the number of pez we jave
   in our dispenser. Left it declared but
