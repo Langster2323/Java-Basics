@@ -9,8 +9,7 @@ public class Questions {
     while (anyQuestions.equals("yes")) {
       String question = console.readLine("What is your question?  ");
       console.printf("I do not understand:  %s", question);
-      anyQuestions = console.readLine("Are there any more questions  %n
-                                      ");
+      anyQuestions = console.readLine("Are there any more questions  %n");
     }
 
     console.printf("Next slide...");
